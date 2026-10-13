@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFhizUqYgPt5ZtqKLd1Q8wuFXW9LOnrnTfh68hU0pT6Q&s=10);
+  background-size: cover;          /* Hace que la imagen cubra toda la pantalla */
+  background-repeat: no-repeat;    /* Evita que la imagen se repita en mosaico */
+  background-position: center;     /* Centra la imagen */
+  background-attachment: fixed;    Mantiene la imagen fija al hacer scroll (opcional)
+  margin: 0;                       /* Elimina márgenes por defecto del navegador */
+  height: 100vh;                   /* Asegura que el body ocupe toda la altura */
+}

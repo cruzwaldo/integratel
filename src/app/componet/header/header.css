@@ -1,0 +1,46 @@
+header {
+     position: absolute; /* Superpone el header sobre la imagen o contenido */
+      width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: transparent; /* Hace el fondo transparente */
+    z-index: 10; /* Asegura que esté por encima de la imagen */
+
+}
+
+
+a {
+    text-decoration: none ;
+    font-size: 2rem;
+    color: rgb(17, 2, 2);
+
+    gap: 30px;
+    
+    
+    
+}
+ul {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+li {
+    list-style: none;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.08);
+}
+
+
+button{
+    background-color: rgb(16, 3, 109);
+    
+}
